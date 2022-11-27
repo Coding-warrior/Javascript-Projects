@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="newform.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <h1>Form Submission</h1>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Full Name" required />
+        </div>
+        <div class="form-group">
+          <label for="contact">Contact</label>
+          <input
+            type="tel"
+            id="contact"
+            placeholder="Contact Number "
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="website">Website</label>
+          <input type="url" id="website" placeholder="Website" required />
+        </div>
+        <div class="form-group">
+          <label for="password1">Password</label>
+          <input
+            type="password"
+            id="password1"
+            placeholder="Write Password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="newform.js"></script>
+  </body>
+</html>
